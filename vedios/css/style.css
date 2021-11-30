@@ -1,0 +1,59 @@
+*
+{
+    font-family: 'ZCOOL KuaiLe', cursive;
+font-weight: 400;
+font-size: 25px;
+}
+body
+{
+    background-image: url(../images/about\ page.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.navbar
+{
+    background-color:     rgb(255, 255, 255);
+    
+}
+
+.navbar-nav
+{
+    position: absolute;
+    right: 4px;
+}
+.nav-item
+{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    margin-left: 4px;
+    background-color: rgba(186, 186, 192, 0);
+    transition: 1s;
+
+}
+.nav-item:hover
+{
+    background-color: rgba(186, 186, 192, 0.400);
+
+    border-radius: 50%;
+    margin-top: 8px;
+}
+.navbar-brand
+{
+    background-color: rgba(186, 186, 192, 0);
+    transition: 1s;
+}
+.navbar-brand:hover
+{
+    background-color: rgba(186, 186, 192, 0.400);
+
+    border-radius: 50%;
+}
+
+.intro
+{
+    position: absolute;
+    left:40px;
+    top: 30%;
+   
+}

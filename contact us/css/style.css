@@ -1,0 +1,116 @@
+*
+{
+    font-family: 'ZCOOL KuaiLe', cursive;
+font-weight: 400;
+font-size: 25px;
+}
+.navbar
+{
+    background-color:     rgb(255, 255, 255);
+    
+}
+
+.navbar-nav
+{
+    position: absolute;
+    right: 4px;
+}
+.nav-item
+{
+    font-family: 'ZCOOL KuaiLe', cursive;
+    margin-left: 4px;
+    background-color: rgba(186, 186, 192, 0);
+    transition: 1s;
+
+}
+.nav-item:hover
+{
+    background-color: rgba(186, 186, 192, 0.400);
+
+    border-radius: 50%;
+    margin-top: 8px;
+}
+.navbar-brand
+{
+    background-color: rgba(186, 186, 192, 0);
+    transition: 1s;
+}
+.navbar-brand:hover
+{
+    background-color: rgba(186, 186, 192, 0.400);
+
+    border-radius: 50%;
+}
+
+.sec-one
+{
+    background-color: rgb(10, 1, 1);
+    width: 80%;
+    height: 200px;
+    position: absolute;
+    top: 12%;
+    left: 10%;
+}
+.part2
+{
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height:500px;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+   
+}
+.part2:hover
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.input
+{
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+margin-bottom: 45px;
+
+}
+.input::placeholder
+{
+    color: black;
+    font-weight: 500;
+}
+
+.btn1
+{
+    position: absolute;
+    bottom: 9px;
+    right: 9px;
+}
+span
+{
+    color: white;
+    font-size: 80px;
+}
+.title
+{
+    position: absolute;
+right: 20%;
+top: 30px;
+font-weight: 500;
+font-size:80px ;
+
+}
+.part3
+{
+    width:630px;
+    height: 300px;
+    position: absolute;
+    right: 10%;
+    top:50%;
+}
+.hvr:hover
+{
+margin-top: 5px;
+
+}
